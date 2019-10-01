@@ -1,0 +1,160 @@
+    1  nl my-concat-file.dat 
+    2  ls
+    3  nl file1.dat 
+    4  ls
+    5  cat cat
+    6  file cat
+    7  nl /etc/passwd
+    8  ls
+    9  ls -al
+   10  ls -a
+   11  ls -l
+   12  exit
+   13  ls
+   14  cd CIT_173_Lab1
+   15  CIT_173_Lab1
+   16  cd CIT173_Lab1
+   17  ls
+   18  cat cat
+   19  ls
+   20  $ head -n 128 /dev/urandom | tr -dc A-Za-z0-9 | head > file1.dat
+   21  head -n 128 /dev/urandom | tr -dc A-Za-z0-9 | head > file1.dat
+   22  head -n 128 /dev/urandom | tr -dc A-Za-z0-9 | head > file2.dat
+   23  cat file1.dat file2.dat > my-concat-file.dat
+   24  cat my-concat-file.dat
+   25  clear
+   26  ls
+   27  cat my-concat-file.dat
+   28  cat file1.dat
+   29  clear
+   30  sed -i  's/1/monkey/g' my-concat-file.dat > monkey.dat
+   31  cat monkey.dat
+   32  ls
+   33  cat my-concat-file.dat
+   34  cat monkey.dat
+   35  ls
+   36  cat monkey.dat
+   37  ls monkey.dat
+   38  cat monkey.dat
+   39  sed -i  's/monkey/1/g' my-concat-file.dat 
+   40  cat my-concat-file.dat
+   41  sed 's/1/monkey/g' my-concat-file.dat > monkey.dat
+   42  cat monkey.dat
+   43  ls
+   44  my-concat-file.dat
+   45  cat my-concat-file.dat
+   46  ls
+   47  sed -i 's/1/monkey/g' my-concat-file.dat 
+   48  cat file2.dat
+   49  clear
+   50  git config --global user.name "<GITHUB_aaronrobot>"
+   51  git config --global user.email "<GITHUB_aaronpedersen80@gmail.com>"
+   52  cd..
+   53  cd.
+   54  cd aaron
+   55  cd home
+   56  pwd
+   57  .cd aaron
+   58  clear
+   59  exit
+   60  dir
+   61  CIT173_Lab1
+   62  cd CIT173_Lab1
+   63  ls
+   64  rm cat
+   65  ls
+   66  cat file1.dat file2.dat
+   67  clear
+   68  ls
+   69  cat my-env.txt 
+   70  clear
+   71  ls
+   72  cat monkey.dat 
+   73  clear
+   74  cd..
+   75  cd ..
+   76  mkdir CIT173_Lab2
+   77  cd CIT173_Lab2
+   78  printenv $SHELL
+   79  ls
+   80  env
+   81  var
+   82  echo $SHELL
+   83  printenv $0
+   84  printenv $o
+   85  echo $o
+   86  set $0
+   87  set
+   88  echo $0
+   89  man type
+   90  type $SHELL
+   91  type -a shell
+   92  type -a
+   93  ech type -a
+   94  echo type -a
+   95  type
+   96  ls
+   97  type $SHELL exe
+   98  type file
+   99  type file exe
+  100  type -a shell
+  101  cd`/
+git clone https://github.com/RenoTechnologyAcademy/CIT173_Lab2_Files.git
+cat `/CIT173_Lab2_files/phonebook1.txt `/CIT173_Lab2_Files/phonebook2.txt > ~/CIT173_Lab2/my-phonebook.txt
+wc `/CIT173_Lab2/my-phonebook.txt
+  102  wc my-phonebook.txt
+  103  ls
+  104  cat CIT173_Lab_2_Files
+  105* c[at CIT173_Lab2_Files
+  106  cd CIT173_Lab_2_Files
+  107  cd CIT173_Lab2_Files
+  108  ls
+  109  cat phonebook1.txt phonebook2.txt > ~/CIT173_Lab2/my-phonebook.txt
+  110  cd ..
+  111  ls
+  112  wc my-phonebook.txt 
+  113  man wc
+  114  wc -c my-phonebook.txt 
+  115  wc -l my-phonebook.txt 
+  116  wc -w my-phonebook.txt 
+  117  cat my-phonebook.txt  
+  118  cat my-phonebook.txt | less
+  119  cat ~/CIT173_Lab2_Files/phonelisting1.txt ~/CIT173Lab2_Files/phonelisting2.txt > ~/CIT173_Lab2/my-phonelisting.txt
+  120  cd ..
+  121  cd CIT173_Lab2_Files
+  122  ls
+  123  cd CIT173_Lab2
+  124  ls
+  125  cd CIT173_Lab2_Files
+  126  cat ~/CIT173_Lab2_Files/phonelisting1.txt ~/CIT173Lab2_Files/phonelisting2.txt > ~/CIT173_Lab2/my-phonelisting.txt
+  127  ls
+  128  cat phonelisting1.txt phonelisting2.txt > ~/CIT173_Lab2/my-phonelisting.txt
+  129  cd ..
+  130  ls
+  131  tac man
+  132  man tac
+  133  tac my-phonebook.txt > my-phonebook-reverse.txt
+  134  ls
+  135  cat my-phonebook.txt
+  136  cat my-phonebook-reverse.txt 
+  137  join my-phonebook.txt my-phonelisting.txt > my-joined-phonebook.txt
+  138  man unexpand
+  139  unexpand -t --tabs=2 my-phonebook.txt > my-tabbed-phonebook.txt
+  140  unexpand -t 2 my-phonebook.txt > my-tabbed-phonebook.txt
+  141  cat my-tabbed-phonebook.txt 
+  142  cat my-phonebook.txt
+  143  sort my-phonebook.txt > my-sorted-phonebook.txt
+  144  cat my-sorted-phonebook.txt 
+  145  n1 my-phonebook.txt > my-numbered-phonebokk.txt
+  146  nl my-phonebook.txt > my-numbered-phonebokk.txt
+  147  cat my-numbered-phonebokk.txt 
+  148  man head
+  149  head -n = 5 my-phonebook.txt > my-head-phonebook.txt
+  150  head -n -5 my-phonebook.txt > my-head-phonebook.txt
+  151  cat my-head-phonebook.txt 
+  152  rm my-head-phonebook.txt 
+  153  head -5 my-phonebook.txt > my-head-phonebook.txt
+  154  cat my-head-phonebook.txt 
+  155  tail -5 my-phonebook.txt > my-tail-phonebook.txt
+  156  cat my-tail-phonebook.txt 
+  157  history > ~/CIT173_Lab2/my-command-history.txt
